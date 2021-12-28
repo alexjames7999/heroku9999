@@ -3,6 +3,5 @@ wget "https://downloads.rclone.org/rclone-current-linux-amd64.zip"
 unzip rclone-current-linux-amd64.zip
 rm rclone-current-linux-amd64.zip
 cd rclone*
-mkdir -p ~/.local/bin/
-cp rclone ~/.local/bin/
-export PATH=$PATH:~/.local/bin
+#mkdir -p ~/.local/bin/
+cp rclone /app/.heroku/python/bin
